@@ -1,5 +1,5 @@
 # Put your commands here
-COMMAND1 = "~~"
+COMMAND1 = "name twenty breeds of dogs"
 
 # Your handling code goes in this function
 def handle_command(command):
@@ -9,7 +9,7 @@ def handle_command(command):
     """
     response = ""
     if command.find(COMMAND1) >= 0:
-        response = "Huh?"
+        response = "snouser, terrier, English lab, yellow lab, greyhound, chocolate lab, wolf, pig, bulldog, and more."
         
     return response
 
